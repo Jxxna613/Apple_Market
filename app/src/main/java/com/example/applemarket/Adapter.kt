@@ -35,8 +35,8 @@ class Adapter(val items: MutableList<MarketInfo>) : RecyclerView.Adapter<Adapter
         return items.size
     }
 
-    fun setOnClickListener(onClickLister : OnClickListener) {
-        this.onClickListener = onClickLister
+    fun setOnClickListener(onClickListner : OnClickListener) {
+        this.onClickListener = onClickListner
     }
 
     interface OnClickListener {
